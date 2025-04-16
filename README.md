@@ -12,3 +12,6 @@ Alyssa Pradhan - amp10295@nyu.edu, Alyssa.Pradhan@nyulangone.org
 * `scripts` - scripts for automation (bash scripts go here)
 * `src` - source code
 * `tests` - test runs, Jupyter notebooks, etc.
+
+## About the data
+To follow.
