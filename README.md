@@ -7,11 +7,8 @@ Yumi Briones - yb2612@nyu.edu, Yumi.Briones@nyulangone.org
 Jennifer Motter - mottej02@nyu.edu, Jennifer.Motter@nyulangone.org  
 Alyssa Pradhan - amp10295@nyu.edu, Alyssa.Pradhan@nyulangone.org  
 
-## How to run cleaning/analysis tasks
-To follow.
-
-## About the data
-To follow.
-
-## How to engage with project
-To follow.
+## Repo structure
+* `docs` - documentation
+* `scripts` - scripts for automation (bash scripts go here)
+* `src` - source code
+* `tests` - test runs, Jupyter notebooks, etc.
