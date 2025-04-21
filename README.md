@@ -23,7 +23,7 @@ To follow.
 
 https://arxiv.org/pdf/2103.00020
 
-We integrated Contrastive Language-Image Pre-Training (CLIP) by OpenAI ([open_clip implementation](https://github.com/mlfoundations/open_clip)) into the HPL pipeline.
+To enable multimodal learning, we integrated Contrastive Language-Image Pre-Training (CLIP) by OpenAI ([open_clip implementation](https://github.com/mlfoundations/open_clip)) into the HPL pipeline.
 
 ![image](HPL-CLIP_diagram.png)
 
