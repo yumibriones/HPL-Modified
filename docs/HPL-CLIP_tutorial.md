@@ -6,7 +6,7 @@ How to run HPL-CLIP. This is an integration of https://github.com/mlfoundations/
 
 1. Clone the open_clip repo to your directory of choice: https://github.com/mlfoundations/open_clip.
 
-2. From this HPL-Modified repo, open `scripts/train_clip.sh`. Edit as needed (e.g., activate correct conda environment, specify correct path/to/open/clip, edit `train-data`, etc.).
+2. From this HPL-Modified repo, open `scripts/train_clip.sh`. Edit as needed (e.g., activate correct conda environment, specify correct paths to open_clip repo, `logs`, `train-data`, etc.).
 
 3. Submit `scripts/train_clip.sh` as a batch job. A TensorBoard log should appear in the open_clip log directory (e.g., `/gpfs/home/yb2612/dl4med_25/dl_project/results/logs/`).
 
