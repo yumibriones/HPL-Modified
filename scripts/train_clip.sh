@@ -35,7 +35,7 @@ srun --cpu_bind=v --accel-bind=gn python -u src/open_clip_train/main.py \
     --csv-separator , \
     --logs /gpfs/home/yb2612/dl4med_25/dl_project/results/logs \
     --warmup 2000 \
-    --batch-size=128 \
+    --batch-size=256 \
     --lr=1e-3 \
     --wd=0.1 \
     --epochs=30 \
