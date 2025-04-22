@@ -2,11 +2,19 @@
 
 How to run HPL-CLIP. This is an integration of https://github.com/mlfoundations/open_clip and https://github.com/AdalbertoCq/Histomorphological-Phenotype-Learning.
 
+## Preparing inputs
+
+1. Download train, validation, and test sets from: [LUAD & LUSC 250K subsample](https://drive.google.com/drive/folders/1FuPkMnv6CiDe26doUXfEfQEWShgbmp9P) and [LUAD & LUSC datasets](https://drive.google.com/drive/folders/18skVh8Vk6zoxG3Se5Vlb7a3EKP2xHXXd).
+
+2. Generate image captions using [notebooks/generate_image_captions.ipynb](https://github.com/yumibriones/HPL-Modified/blob/main/notebooks/generate_image_captions.ipynb).
+
+3. Extract all images from HDF5 files using [notebooks/extract_hdf5_images.ipynb]().
+
 ## Training HPL-CLIP
 
-1. Clone the open_clip repo to your directory of choice: https://github.com/mlfoundations/open_clip.
+1. Clone the open_clip repo (https://github.com/mlfoundations/open_clip) to your directory of choice.
 
-2. From this HPL-Modified repo, open `scripts/train_clip.sh`. Edit as needed (e.g., activate correct conda environment, specify correct paths to open_clip repo, `logs`, `train-data`, etc.).
+2. From the HPL-Modified repo, open `scripts/train_clip.sh`. Edit as needed (e.g., activate correct conda environment, specify correct paths to open_clip repo, `logs`, `train-data`, etc.).
 
 3. Submit `scripts/train_clip.sh` as a batch job. A TensorBoard log should appear in the open_clip log directory (e.g., `/gpfs/home/yb2612/dl4med_25/dl_project/results/logs/`).
 
