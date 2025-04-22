@@ -2,7 +2,7 @@
 
 How to run HPL-CLIP. This is an integration of https://github.com/mlfoundations/open_clip and https://github.com/AdalbertoCq/Histomorphological-Phenotype-Learning.
 
-## Preparing inputs
+## Prepare inputs
 
 1. Download train, validation, and test sets from: [LUAD & LUSC 250K subsample](https://drive.google.com/drive/folders/1FuPkMnv6CiDe26doUXfEfQEWShgbmp9P) and [LUAD & LUSC datasets](https://drive.google.com/drive/folders/18skVh8Vk6zoxG3Se5Vlb7a3EKP2xHXXd).
 
@@ -10,7 +10,7 @@ How to run HPL-CLIP. This is an integration of https://github.com/mlfoundations/
 
 3. Extract all images from HDF5 files using [notebooks/extract_hdf5_images.ipynb]().
 
-## Training HPL-CLIP
+## Train/validate HPL-CLIP
 
 1. Clone the open_clip repo (https://github.com/mlfoundations/open_clip) to your directory of choice.
 
@@ -46,3 +46,7 @@ TensorBoard 2.19.0 at http://0.0.0.0:9199/ (Press CTRL+C to quit)
 ```
 
 8. Open the link from the output above in a web browser (e.g., http://0.0.0.0:9199/). This opens the TensorBoard interface, which contains training metrics, graphs, etc.
+
+## Test HPL-CLIP
+
+To follow.
