@@ -49,7 +49,9 @@ TensorBoard 2.19.0 at http://0.0.0.0:9199/ (Press CTRL+C to quit)
 
 ## Test HPL-CLIP
 
-To generate embeddings from a trained HPL-CLIP model, use scripts/extract_embeddings.py.
+1. Generate embeddings from a trained HPL-CLIP model using [scripts/extract_embeddings.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/extract_embeddings.py).
 
-check embeddings, follow [notebooks/checking_clusters.ipynb
+2. Perform Leiden clustering using ???.
+
+3. Generate UMAPs from embeddings with [notebooks/checking_clusters.ipynb
 ](https://github.com/yumibriones/HPL-Modified/tree/main/notebooks).
