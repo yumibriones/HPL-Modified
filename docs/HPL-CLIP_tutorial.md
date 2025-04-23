@@ -49,4 +49,7 @@ TensorBoard 2.19.0 at http://0.0.0.0:9199/ (Press CTRL+C to quit)
 
 ## Test HPL-CLIP
 
-To follow.
+To generate embeddings from a trained HPL-CLIP model, use scripts/extract_embeddings.py.
+
+check embeddings, follow [notebooks/checking_clusters.ipynb
+](https://github.com/yumibriones/HPL-Modified/tree/main/notebooks).
