@@ -35,7 +35,7 @@ conda activate dl4med_25
 7. Run TensorBoard and point it to the log directory that contains the event files:
 
 ```
-tensorboard --logdir /gpfs/home/yb2612/dl4med_25/dl_project/results/logs/ --port 9199 --host 0.0.0.0
+tensorboard --logdir /gpfs/home/yb2612/dl4med_25/dl_project/data/scratch_data/hpl-clip/logs/ --port 9199 --host 0.0.0.0
 ```
 
 This should return something like:
@@ -49,7 +49,9 @@ TensorBoard 2.19.0 at http://0.0.0.0:9199/ (Press CTRL+C to quit)
 
 ## Test HPL-CLIP
 
-To generate embeddings from a trained HPL-CLIP model, use scripts/extract_embeddings.py.
+1. Generate embeddings from a trained HPL-CLIP model using [scripts/extract_embeddings.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/extract_embeddings.py).
 
-check embeddings, follow [notebooks/checking_clusters.ipynb
+2. Perform Leiden clustering using ???.
+
+3. Generate UMAPs from embeddings with [notebooks/checking_clusters.ipynb
 ](https://github.com/yumibriones/HPL-Modified/tree/main/notebooks).
