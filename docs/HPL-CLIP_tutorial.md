@@ -35,7 +35,7 @@ conda activate dl4med_25
 7. Run TensorBoard and point it to the log directory that contains the event files:
 
 ```
-tensorboard --logdir /gpfs/home/yb2612/dl4med_25/dl_project/results/logs/ --port 9199 --host 0.0.0.0
+tensorboard --logdir /gpfs/home/yb2612/dl4med_25/dl_project/data/scratch_data/hpl-clip/logs/ --port 9199 --host 0.0.0.0
 ```
 
 This should return something like:
