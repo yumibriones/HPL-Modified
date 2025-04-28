@@ -6,7 +6,7 @@ How to run HPL-CLIP. This is an integration of [open_clip](https://github.com/ml
 
 1. Download train, validation, and test sets from: [LUAD & LUSC 250K subsample](https://drive.google.com/drive/folders/1FuPkMnv6CiDe26doUXfEfQEWShgbmp9P) and [LUAD & LUSC datasets](https://drive.google.com/drive/folders/18skVh8Vk6zoxG3Se5Vlb7a3EKP2xHXXd).
 
-2. Generate image captions using [notebooks/generate_short_varied_captions.ipynb](https://github.com/yumibriones/HPL-Modified/blob/main/notebooks/generate_short_varied_captions.ipynb).
+2. Generate image captions using [generate_short_varied_captions.ipynb](https://github.com/yumibriones/HPL-Modified/blob/main/notebooks/generate_short_varied_captions.ipynb).
 
 3. Extract all images from HDF5 files using [extract_hdf5_images.ipynb]().
 
