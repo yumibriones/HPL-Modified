@@ -11,8 +11,7 @@ Alyssa Pradhan - amp10295@nyu.edu, Alyssa.Pradhan@nyulangone.org
 
 ## Repo structure
 * `docs` - documentation
-* `scripts` - scripts for automation (e.g., bash scripts)
-* `src` - source code
+* `scripts` - scripts for automation (e.g., python scripts, bash scripts to run batch jobs on HPC)
 * `notebooks` - Jupyter notebooks
 
 ## Data
