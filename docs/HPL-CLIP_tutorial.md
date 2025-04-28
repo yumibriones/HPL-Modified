@@ -14,7 +14,7 @@ How to run HPL-CLIP. This is an integration of [open_clip](https://github.com/ml
 
 1. Clone the open_clip repo (https://github.com/mlfoundations/open_clip) to your directory of choice.
 
-2. From the HPL-Modified repo, open [`scripts/bash/HPL-RN50_train_250k_val.sh`](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/bash/HPL-RN50_train_250k_val.sh). Edit as needed (e.g., activate correct conda environment, specify correct paths to `open_clip` repo, `logs`, `train-data`, etc.).
+2. From the HPL-Modified repo, open [`scripts/bash/HPL-RN50_train_250k_val.sh`](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/bash/HPL-RN50_train_250k_val.sh). Edit as needed (e.g., activate correct conda environment, specify correct paths to `open_clip` repo, `logs`, `train-data`, `val-data`, etc.).
 
 3. Submit [`scripts/bash/HPL-RN50_train_250k_val.sh`](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/bash/HPL-RN50_train_250k_val.sh) as a batch job. A TensorBoard log should appear in specified log directory (e.g., `/gpfs/home/yb2612/dl4med_25/dl_project/data/scratch_data/hpl-clip/logs/`).
 
