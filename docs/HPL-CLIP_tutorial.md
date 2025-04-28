@@ -49,9 +49,8 @@ TensorBoard 2.19.0 at http://0.0.0.0:9199/ (Press CTRL+C to quit)
 
 ## Test HPL-CLIP
 
-1. Generate embeddings from a trained HPL-CLIP model using [scripts/extract_embeddings.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/extract_embeddings.py).
+1. Generate embeddings from a trained HPL-CLIP model using [scripts/extract_embeddings_clip.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/extract_embeddings_clip.py).
+2. Run UMAP/Leiden clustering on embeddings using [scripts/run_umap_leiden.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/run_umap_leiden.py).*
+3. Plot UMAP with clustering results/clinical features overlaid on top using [scripts/plot_umap.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/plot_umap.py).*
 
-2. Perform Leiden clustering using ???.
-
-3. Generate UMAPs from embeddings with [notebooks/checking_clusters.ipynb
-](https://github.com/yumibriones/HPL-Modified/tree/main/notebooks).
+*If submitting as a batch job on HPC, use corresponding scripts in [scripts/bash](https://github.com/yumibriones/HPL-Modified/tree/main/scripts/bash).
