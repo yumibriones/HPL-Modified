@@ -40,7 +40,7 @@ Briefly, we first generated text captions for each image incorporating informati
 
 #### HPL-CONCH
 
-As a bonus, we generated image embeddings from CONtrastive learning from Captions for Histopathology (CONCH) by the Mahmood Lab (https://github.com/mahmoodlab/CONCH). This is a CLIP-style model that has been trained on over a million histopathology image-caption pairs. A caveat is that pathological information is included in the captions, so clusters generated from this method will be somewhat supervised.
+As a bonus, we generated and clustered image embeddings from CONtrastive learning from Captions for Histopathology (CONCH) by the Mahmood Lab (https://github.com/mahmoodlab/CONCH). This is a CLIP-style model that has been trained on over a million histopathology image-caption pairs. A caveat is that pathological information is included in the captions, so clusters generated from this method will be somewhat supervised.
 
 ### HPL-VICReg
 *Point person: Jennifer Motter*
