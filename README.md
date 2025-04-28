@@ -55,6 +55,6 @@ We replaced the convolutional neural network (CNN) backbone of HPL to a vision t
 
 ## Results
 
-To get UMAP and Leiden clustering results from HPL-Modified: [HPL-Modified Results](https://drive.google.com/drive/folders/11N90nfzHcVXhI4aQpWc3PjFSY3ryGdMr?usp=sharing)
+We redid UMAP and Leiden clustering on the original HPL embeddings. We also did the same analysis for all modifications of HPL (i.e., HPL-CLIP, HPL-CONCH, HPL-VICReg, HPL-ViT). All results can be found here: [HPL-Modified Results](https://drive.google.com/drive/folders/11N90nfzHcVXhI4aQpWc3PjFSY3ryGdMr?usp=sharing).
 
 
