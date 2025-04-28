@@ -28,7 +28,7 @@ All data is from https://github.com/AdalbertoCq/Histomorphological-Phenotype-Lea
 ### HPL-CLIP
 *Point person: Yumi Briones*
 
-https://arxiv.org/pdf/2103.00020
+Original CLIP paper: https://arxiv.org/pdf/2103.00020
 
 Tutorial: https://github.com/yumibriones/HPL-Modified/blob/main/docs/HPL-CLIP_tutorial.md
 
@@ -41,14 +41,14 @@ Briefly, we first generated text captions for each image incorporating informati
 ### HPL-VICReg
 *Point person: Jennifer Motter*
 
-https://arxiv.org/pdf/2105.04906
+Original VICReg paper: https://arxiv.org/pdf/2105.04906
 
 We changed the self-supervised learning (SSL) method of HPL from Barlow Twins to Variance-Invariance-Covariance Regularization (VICReg).
 
 ### HPL-ViT
 *Point person: Alyssa Pradhan*
 
-https://arxiv.org/pdf/2010.11929
+Original ViT paper: https://arxiv.org/pdf/2010.11929
 
 We replaced the convolutional neural network (CNN) backbone of HPL to a vision transformer (ViT).
 
