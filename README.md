@@ -11,8 +11,7 @@ Alyssa Pradhan - amp10295@nyu.edu, Alyssa.Pradhan@nyulangone.org
 
 ## Repo structure
 * `docs` - documentation
-* `scripts` - scripts for automation (e.g., bash scripts)
-* `src` - source code
+* `scripts` - scripts for automation (e.g., python scripts, bash scripts to run batch jobs on HPC)
 * `notebooks` - Jupyter notebooks
 
 ## Data
@@ -57,7 +56,13 @@ We replaced the convolutional neural network (CNN) backbone of HPL to a vision t
 
 We redid UMAP and Leiden clustering on the original HPL embeddings. We also did the same analysis for all modifications of HPL (i.e., HPL-CLIP, HPL-CONCH, HPL-VICReg, HPL-ViT). All results can be found here: [HPL-Modified Results](https://drive.google.com/drive/folders/11N90nfzHcVXhI4aQpWc3PjFSY3ryGdMr?usp=sharing).
 
+Briefly, this is how results were generated:
+
 1. Extract embeddings from the original HPL pipeline using [notebooks/extract_embeddings_hpl.ipynb](https://github.com/yumibriones/HPL-Modified/blob/main/notebooks/extract_embeddings_hpl.ipynb).
-2. Extract embeddings from HPL-CLIP using [scripts/py/extract_embeddings_clip.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/extract_embeddings_clip.py).
-3. Extract embeddings from HPL-CONCH using [scripts/py/extract_embeddings_conch.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/extract_embeddings_conch.py).
+2. Extract embeddings from HPL-CLIP using [scripts/py/extract_embeddings_clip.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/extract_embeddings_clip.py).*
+3. Extract embeddings from HPL-CONCH using [scripts/py/extract_embeddings_conch.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/extract_embeddings_conch.py).*
+4. Run UMAP/Leiden clustering on embeddings using [scripts/run_umap_leiden.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/run_umap_leiden.py).*
+5. Plot UMAP with clustering results/clinical features overlaid on top using [scripts/plot_umap.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/plot_umap.py).*
+
+* If submitting as a batch job on HPC, use corresponding scripts in [scripts/bash](https://github.com/yumibriones/HPL-Modified/tree/main/scripts/bash). 
 
