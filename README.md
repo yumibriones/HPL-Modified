@@ -15,7 +15,7 @@ Alyssa Pradhan - amp10295@nyu.edu, Alyssa.Pradhan@nyulangone.org
 * `src` - source code
 * `notebooks` - Jupyter notebooks
 
-## About the data
+## Data
 
 All data is from https://github.com/AdalbertoCq/Histomorphological-Phenotype-Learning.
 
@@ -52,5 +52,9 @@ We changed the self-supervised learning (SSL) method of HPL from Barlow Twins to
 https://arxiv.org/pdf/2010.11929
 
 We replaced the convolutional neural network (CNN) backbone of HPL to a vision transformer (ViT).
+
+## Results
+
+To get UMAP and Leiden clustering results from HPL-Modified: [HPL-Modified Results](https://drive.google.com/drive/folders/11N90nfzHcVXhI4aQpWc3PjFSY3ryGdMr?usp=sharing)
 
 
