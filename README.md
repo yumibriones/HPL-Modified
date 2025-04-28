@@ -57,4 +57,7 @@ We replaced the convolutional neural network (CNN) backbone of HPL to a vision t
 
 We redid UMAP and Leiden clustering on the original HPL embeddings. We also did the same analysis for all modifications of HPL (i.e., HPL-CLIP, HPL-CONCH, HPL-VICReg, HPL-ViT). All results can be found here: [HPL-Modified Results](https://drive.google.com/drive/folders/11N90nfzHcVXhI4aQpWc3PjFSY3ryGdMr?usp=sharing).
 
+1. Extract embeddings from the original HPL pipeline using [notebooks/extract_embeddings_hpl.ipynb](https://github.com/yumibriones/HPL-Modified/blob/main/notebooks/extract_embeddings_hpl.ipynb).
+2. Extract embeddings from HPL-CLIP using [scripts/py/extract_embeddings_clip.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/extract_embeddings_clip.py).
+3. Extract embeddings from HPL-CONCH using [scripts/py/extract_embeddings_conch.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/extract_embeddings_conch.py).
 
