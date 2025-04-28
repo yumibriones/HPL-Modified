@@ -64,5 +64,5 @@ Briefly, this is how results were generated:
 4. Run UMAP/Leiden clustering on embeddings using [scripts/run_umap_leiden.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/run_umap_leiden.py).*
 5. Plot UMAP with clustering results/clinical features overlaid on top using [scripts/plot_umap.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/plot_umap.py).*
 
-* If submitting as a batch job on HPC, use corresponding scripts in [scripts/bash](https://github.com/yumibriones/HPL-Modified/tree/main/scripts/bash). 
+*If submitting as a batch job on HPC, use corresponding scripts in [scripts/bash](https://github.com/yumibriones/HPL-Modified/tree/main/scripts/bash). 
 
