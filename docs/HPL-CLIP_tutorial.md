@@ -8,7 +8,7 @@ How to run HPL-CLIP. This is an integration of [open_clip](https://github.com/ml
 
 2. Generate image captions using [notebooks/generate_short_varied_captions.ipynb](https://github.com/yumibriones/HPL-Modified/blob/main/notebooks/generate_short_varied_captions.ipynb).
 
-3. Extract all images from HDF5 files using [notebooks/extract_hdf5_images.ipynb]().
+3. Extract all images from HDF5 files using [extract_hdf5_images.ipynb]().
 
 ## Train/validate HPL-CLIP
 
@@ -49,8 +49,8 @@ TensorBoard 2.19.0 at http://0.0.0.0:9199/ (Press CTRL+C to quit)
 
 ## Test HPL-CLIP
 
-1. Generate embeddings from the selected HPL-CLIP model using [scripts/extract_embeddings_clip.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/extract_embeddings_clip.py).
-2. Run UMAP/Leiden clustering on embeddings using [scripts/run_umap_leiden.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/run_umap_leiden.py).*
-3. Plot UMAP with clustering results/clinical features overlaid on top using [scripts/plot_umap.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/plot_umap.py).*
+1. Generate embeddings from the selected HPL-CLIP model using [extract_embeddings_clip.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/extract_embeddings_clip.py).
+2. Run UMAP/Leiden clustering on embeddings using [run_umap_leiden.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/run_umap_leiden.py).*
+3. Plot UMAP with clustering results/clinical features overlaid on top using [plot_umap.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/plot_umap.py).*
 
 *If submitting as a batch job on HPC, use corresponding scripts in [scripts/bash](https://github.com/yumibriones/HPL-Modified/tree/main/scripts/bash).
