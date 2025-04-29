@@ -12,16 +12,21 @@ import os
 # dimplot for leiden clusters
 def dim_plot(merged_df, umap_1_col='umap_1', umap_2_col='umap_2', feature_col='leiden_2.0', save_dir='.'):
     """
-    Plot UMAP with specified feature column and save the plot.
-    
-    Parameters:
-    - merged_df: DataFrame containing the UMAP results and feature column.
-    - umap_1_col, umap_2_col: Columns with UMAP coordinates.
-    - feature_col: Column to color the UMAP points by.
+    Plot UMAP with specified feature column and save the plot, with cluster numbers projected if feature_col is Leiden.
     """
     print(f"Plotting UMAP by {feature_col}...")
     plt.figure(figsize=(10, 8))
-    sns.scatterplot(x=umap_1_col, y=umap_2_col, hue=feature_col, data=merged_df, palette='tab20', legend=None, s=5, alpha=0.7)
+    ax = sns.scatterplot(
+        x=umap_1_col, y=umap_2_col, hue=feature_col,
+        data=merged_df, palette='tab20', legend=None, s=5, alpha=0.7
+    )
+    
+    # annotate cluster numbers
+    if feature_col.startswith('leiden'):
+        centroids = merged_df.groupby(feature_col)[[umap_1_col, umap_2_col]].mean()
+        for cluster, (x, y) in centroids.iterrows():
+            ax.text(x, y, str(cluster), fontsize=9, weight='bold', ha='center', va='center', color='black')
+
     plt.title(f'UMAP Colored by {feature_col}')
     plt.savefig(f"{save_dir}/umap_by_{feature_col}.png", bbox_inches='tight')
     plt.close()
@@ -71,8 +76,17 @@ def plot_umap_by_age(merged_df, umap_1_col='umap_1', umap_2_col='umap_2', age_co
 # execute
 metadata_file = "/gpfs/home/yb2612/dl4med_25/dl_project/data/scratch_data/hpl-clip/lung_subsample_clinical_clusters.csv"
 
-for model in ["hpl", "conch", "hpl-clip-scratch"]:
-    for set in ["test", "val", "train"]:
+for model in [
+    "hpl", 
+    "conch", 
+    "clip-scratch"
+    ]:
+    for set in [
+        "combined",
+        "test", 
+        "val", 
+        "train"
+        ]:
         print(f"Processing {model}/{set} data...")
         embedding_file = f"/gpfs/home/yb2612/dl4med_25/dl_project/results/{model}/{set}/image_embeddings.npy"
         filenames_file = f"/gpfs/home/yb2612/dl4med_25/dl_project/results/{model}/{set}/image_filenames.npy"
