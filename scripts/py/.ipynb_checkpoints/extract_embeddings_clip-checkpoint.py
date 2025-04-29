@@ -18,10 +18,10 @@ def generate_clip_embeddings(filelist_path, model, preprocess, output_path):
     """
     os.makedirs(output_path, exist_ok=True)
 
-    # Load filenames to include
+    # load filenames to include
     filenames = np.load(filelist_path, allow_pickle=True).tolist()
 
-    # Setup
+    # setup
     all_embeddings = []
     image_names = []
 
@@ -52,7 +52,7 @@ def generate_clip_embeddings(filelist_path, model, preprocess, output_path):
         print(f"[FAILED] No embeddings extracted for {filelist_path}")
 
 
-### Setup model ###
+# set up model
 model, _, preprocess = open_clip.create_model_and_transforms('RN50', pretrained=None)
 tokenizer = open_clip.get_tokenizer('RN50')
 checkpoint_path = '/gpfs/home/yb2612/dl4med_25/dl_project/data/scratch_data/hpl-clip/logs/HPL-RN50_train_250k_val_varied/checkpoints/epoch_16.pt'
@@ -60,10 +60,9 @@ checkpoint = torch.load(checkpoint_path, map_location='cpu')
 state_dict = {k.replace("model.", ""): v for k, v in checkpoint['state_dict'].items()}
 model.load_state_dict(state_dict, strict=False)
 
-### Paths ###
 results_dir = "/gpfs/home/yb2612/dl4med_25/dl_project/results/clip-scratch"
 
-### Generate embeddings for each split ###
+# generate embeddings for each split
 generate_clip_embeddings(
     filelist_path=f"{results_dir}/train/image_filenames.npy",
     model=model,
