@@ -30,6 +30,8 @@ All data are from https://github.com/AdalbertoCq/Histomorphological-Phenotype-Le
 
 Original VICReg paper: https://arxiv.org/pdf/2105.04906
 
+Details: https://github.com/yumibriones/HPL-Modified/blob/main/VICReg/README.md
+
 We changed the self-supervised learning (SSL) method of HPL from Barlow Twins to Variance-Invariance-Covariance Regularization (VICReg).
 
 ### HPL-ViT
@@ -37,7 +39,7 @@ We changed the self-supervised learning (SSL) method of HPL from Barlow Twins to
 
 Original ViT paper: https://arxiv.org/pdf/2010.11929
 
-Details: 
+Details: https://github.com/yumibriones/HPL-Modified/blob/main/ViT/README.md
 
 We replaced the convolutional neural network (CNN) backbone of HPL to a vision transformer (ViT).
 
