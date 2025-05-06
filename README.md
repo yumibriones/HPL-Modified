@@ -16,7 +16,7 @@ Alyssa Pradhan - amp10295@nyu.edu, Alyssa.Pradhan@nyulangone.org
 
 ## Data
 
-All data is from https://github.com/AdalbertoCq/Histomorphological-Phenotype-Learning.
+All data are from https://github.com/AdalbertoCq/Histomorphological-Phenotype-Learning.
 
 1. For initial training, we used a 250k subsample of LUAD and LUSC samples: [LUAD & LUSC 250K subsample](https://drive.google.com/drive/folders/1FuPkMnv6CiDe26doUXfEfQEWShgbmp9P)
 2. For complete train, validation, and test sets, we used: [LUAD & LUSC datasets](https://drive.google.com/drive/folders/18skVh8Vk6zoxG3Se5Vlb7a3EKP2xHXXd)
