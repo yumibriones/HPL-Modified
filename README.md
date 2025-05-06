@@ -10,7 +10,7 @@ Jennifer Motter - mottej02@nyu.edu, Jennifer.Motter@nyulangone.org
 Alyssa Pradhan - amp10295@nyu.edu, Alyssa.Pradhan@nyulangone.org  
 
 ## Repo structure
-* `VICReg` - README documentation and files to perform HPL-VICReg and HPL-Barlow Twins replication
+* `VICReg` - README documentation and files to perform HPL-VICReg and HPL-BarlowTwins replication
 * `ViT` - README documentation and files to perform HPL-ViT
 * `CLIP` - README documentation and files to perform HPL-CLIP and HPL-CONCH
 
