@@ -54,7 +54,7 @@ We replicated the original HPL pipeline using Barlow Twins to obtain pseudo-grou
 11. To obtain UMAPs with leiden clustering, run `umap.ipynb` found in the `notebook` folder.
 
 ## Further information 
-Detailed information regarding steps 5-8 and original HPL files can be found in the original HPL pipline's README_HPL.md. 
+Detailed information regarding steps 5-8 and original HPL files can be found in the original HPL pipeline's README_HPL.md.
 
 Modify all scripts as necessary with appropriate directories to ensure files run successfully. 
 
