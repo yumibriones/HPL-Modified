@@ -31,7 +31,7 @@ Additionally, we replicated the original HPL pipeline using Barlow Twins to obta
 
     - In the subfolder `fold_creation` found in the `utilities` folder, replace the `class_folds.ipynb` notbook with the eact same named files in the same location from the `files_to_add`folder.
   
-[**Important**]: Naming conventions were not changed because the original HPL pipeline assumes a strict naming convention to successuflly execute the pipeline.
+[**Important**]: Naming conventions were not changed because the original HPL pipeline assumes a strict naming convention to successuflly execute it.
 
 3. In a folder of your choosing, download the Whole Slide Image (WSI) tiles found from the original HPL pipline for LUAD and LUSC (https://drive.google.com/drive/folders/18skVh8Vk6zoxG3Se5Vlb7a3EKP2xHXXd)). 
     - Ensure that the files are located in the appropriate directories and follow the exact same naming conventions as described in the Workspace Setup of the README.md file of the original HPL pipeline. 
