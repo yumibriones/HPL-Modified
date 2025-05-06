@@ -10,9 +10,9 @@ Jennifer Motter - mottej02@nyu.edu, Jennifer.Motter@nyulangone.org
 Alyssa Pradhan - amp10295@nyu.edu, Alyssa.Pradhan@nyulangone.org  
 
 ## Repo structure
-* `docs` - documentation
-* `scripts` - scripts for automation (e.g., python scripts, bash scripts to run batch jobs on HPC)
-* `notebooks` - Jupyter notebooks
+* `VICReg` - documentation and files to perform HPL-VICReg and HPL-Barlow Twins replication
+* `ViT` - documentation and files to perform HPL-ViT
+* `CLIP` -  documentation and files to perform HPL-CLIP and HPL-CONCH
 
 ## Data
 
