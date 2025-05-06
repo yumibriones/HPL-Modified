@@ -10,9 +10,9 @@ Jennifer Motter - mottej02@nyu.edu, Jennifer.Motter@nyulangone.org
 Alyssa Pradhan - amp10295@nyu.edu, Alyssa.Pradhan@nyulangone.org  
 
 ## Repo structure
-* `VICReg` - documentation and files to perform HPL-VICReg and HPL-Barlow Twins replication
-* `ViT` - documentation and files to perform HPL-ViT
-* `CLIP` -  documentation and files to perform HPL-CLIP and HPL-CONCH
+* `VICReg` - README documentation and files to perform HPL-VICReg and HPL-Barlow Twins replication
+* `ViT` - README documentation and files to perform HPL-ViT
+* `CLIP` - README documentation and files to perform HPL-CLIP and HPL-CONCH
 
 ## Data
 
@@ -66,7 +66,7 @@ Briefly, this is how results were generated:
 4. Run UMAP/Leiden clustering on embeddings using [run_umap_leiden.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/run_umap_leiden.py).*
 5. Plot UMAP with clustering results/clinical features overlaid on top using [plot_umap.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/plot_umap.py).*
 
-*If submitting as a batch job on HPC, use corresponding scripts in [scripts/bash](https://github.com/yumibriones/HPL-Modified/tree/main/scripts/bash). Make sure to adjust filepaths accordingly.
+*If submitting as a batch job on HPC, use corresponding scripts in each folder: VICReg, ViT, CLIP. Make sure to adjust filepaths accordingly.
 
 ## Evaluation
 
