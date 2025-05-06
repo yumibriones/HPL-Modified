@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --partition=gpu8_long,gpu4_long
-#SBATCH --job-name=01_run_representationspathology_TWIST_0
+#SBATCH --job-name=01_run_representationspathology_VICReg_0
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=Jennifer.Motter@nyulangone.org
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=20
-#SBATCH --output=01_run_representationspathology_TWIST_0_%A_%a.out
-#SBATCH --error=01_run_representationspathology_TWIST_0_%A_%a.err
+#SBATCH --output=01_run_representationspathology_VICReg_0_%A_%a.out
+#SBATCH --error=01_run_representationspathology_VICReg_0_%A_%a.err
 #SBATCH --mem=100GB
 #SBATCH --gres=gpu:2
 
