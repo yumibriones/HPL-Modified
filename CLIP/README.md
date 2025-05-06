@@ -1,4 +1,4 @@
-# HPL-CLIP tutorial
+# HPL-CLIP
 
 ![image](HPL-CLIP_diagram.png)
 *Image adapted from [Quiros et al.](https://www.nature.com/articles/s41467-024-48666-7) and [Radford et al.](https://arxiv.org/pdf/2103.00020)*
