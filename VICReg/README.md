@@ -1,10 +1,10 @@
 # HPL-Modified VICReg 
 Jennifer Motter
 
-Overview
+## Overview 
 We replicated the HPL pipeline using VICReg as an SSL method. TWIST was attempted for integration into the existing pipeline, but the model did not learn and was omitted. 
 
-We replicated the original HPL pipeline using Barlow Twins to obtain pseudo-ground truth labels and embeddings. Ground truth HPL files sourced from the original HPL pipleine did not contain artifacts as denoted by the `_filtered`. 
+We ran HPL using Barlow Twins as an SSL method to obtain pseudo-ground truth labels and embeddings. Ground truth HPL files sourced from the original HPL pipleine did not contain artifacts as denoted by the word `_filtered`. 
 
 ### Repo Structure
 
@@ -31,7 +31,7 @@ We replicated the original HPL pipeline using Barlow Twins to obtain pseudo-grou
 
     - In the subfolder `fold_creation` found in the `utilities` folder, replace the `class_folds.ipynb` notbook with the eact same named files in the same location from the `files_to_add`folder.
   
-[**Important**]: Naming conventions were not changed because the original HPL pipeline assumes a strict naming convention to successuflly execute it.
+[**Important**]: Naming conventions were not changed because the original HPL pipeline assumes a strict naming convention with strict file paths for successful execution. 
 
 3. In a folder of your choosing, download the Whole Slide Image (WSI) tiles found from the original HPL pipline for LUAD and LUSC (https://drive.google.com/drive/folders/18skVh8Vk6zoxG3Se5Vlb7a3EKP2xHXXd)). 
     - Ensure that the files are located in the appropriate directories and follow the exact same naming conventions as described in the Workspace Setup of the README.md file of the original HPL pipeline. 
@@ -54,7 +54,7 @@ We replicated the original HPL pipeline using Barlow Twins to obtain pseudo-grou
 11. To obtain UMAPs with leiden clustering, run `umap.ipynb` found in the `notebook` folder.
 
 ## Further information 
-Detailed information regarding steps 5-8 and original HPL files can be found in the original HPL pipline's README_HPL.md. 
+Detailed information regarding steps 5-8 and original HPL files can be found in the original HPL pipeline's README_HPL.md.
 
 Modify all scripts as necessary with appropriate directories to ensure files run successfully. 
 

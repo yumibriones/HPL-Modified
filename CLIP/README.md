@@ -1,4 +1,7 @@
-# HPL-CLIP tutorial
+# HPL-CLIP
+
+![image](HPL-CLIP_diagram.png)
+*Image adapted from [Quiros et al.](https://www.nature.com/articles/s41467-024-48666-7) and [Radford et al.](https://arxiv.org/pdf/2103.00020)*
 
 How to run HPL-CLIP. This is an integration of [open_clip](https://github.com/mlfoundations/open_clip) with the [Histomorphological-Phenotype-Learning](https://github.com/AdalbertoCq/Histomorphological-Phenotype-Learning) pipeline.
 
