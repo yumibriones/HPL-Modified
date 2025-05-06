@@ -4,7 +4,7 @@ Jennifer Motter
 ## Overview 
 We replicated the HPL pipeline using VICReg as an SSL method. TWIST was attempted for integration into the existing pipeline, but the model did not learn and was omitted. 
 
-We replicated the original HPL pipeline using Barlow Twins to obtain pseudo-ground truth labels and embeddings. Ground truth HPL files sourced from the original HPL pipleine did not contain artifacts as denoted by the `_filtered`. 
+We ran HPL using Barlow Twins as an SSL method to obtain pseudo-ground truth labels and embeddings. Ground truth HPL files sourced from the original HPL pipleine did not contain artifacts as denoted by the word `_filtered`. 
 
 ### Repo Structure
 
