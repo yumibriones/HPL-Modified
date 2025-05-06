@@ -62,14 +62,14 @@ We redid UMAP and Leiden clustering on the original HPL embeddings. We repeated 
 
 Briefly, this is how results were generated:
 
-1. Extract embeddings from the original HPL pipeline using [extract_embeddings_hpl.ipynb](https://github.com/yumibriones/HPL-Modified/blob/main/notebooks/extract_embeddings_hpl.ipynb).
+1. Extract embeddings from the original HPL pipeline using [extract_embeddings_hpl.ipynb](https://github.com/yumibriones/HPL-Modified/blob/main/evaluation/extract_embeddings_hpl.ipynb).
 2. Extract embeddings from [VICReg](https://github.com/yumibriones/HPL-Modified/tree/main/VICReg), [ViT](https://github.com/yumibriones/HPL-Modified/tree/main/ViT), [CLIP](https://github.com/yumibriones/HPL-Modified/tree/main/CLIP) with the scripts in each folder.
-4. Run UMAP/Leiden clustering on embeddings using [run_umap_leiden.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/run_umap_leiden.py).*
-5. Plot UMAP with clustering results/clinical features overlaid on top using [plot_umap.py](https://github.com/yumibriones/HPL-Modified/blob/main/scripts/py/plot_umap.py).*
+4. Run UMAP/Leiden clustering on embeddings using [run_umap_leiden.py](https://github.com/yumibriones/HPL-Modified/blob/main/evaluation/run_umap_leiden.py).*
+5. Plot UMAP with clustering results/clinical features overlaid on top using [plot_umap.py](https://github.com/yumibriones/HPL-Modified/blob/main/evaluation/plot_umap.py).*
 
 *If submitting as a batch job on HPC, use corresponding scripts in each folder: VICReg, ViT, CLIP. Make sure to adjust filepaths accordingly.
 
 ## Evaluation
 
-We evaluated our models in terms of (1) similarity of clusters to the original HPL pipeline, and (2) how well the clusters separate LUAD from LUSC. Evaluation is done here: [evaluation.ipynb](https://github.com/yumibriones/HPL-Modified/blob/main/notebooks/evaluation.ipynb).
+We evaluated our models in terms of (1) similarity of clusters to the original HPL pipeline, and (2) how well the clusters separate LUAD from LUSC. Evaluation is done here: [evaluation.ipynb](https://github.com/yumibriones/HPL-Modified/blob/main/evaluation/evaluation.ipynb).
 
