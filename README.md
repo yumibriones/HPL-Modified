@@ -50,9 +50,6 @@ Details: https://github.com/yumibriones/HPL-Modified/blob/main/CLIP/README.md
 
 To enable multimodal learning, we integrated Contrastive Language-Image Pre-Training (CLIP) by OpenAI ([open_clip implementation](https://github.com/mlfoundations/open_clip)) into the HPL pipeline.
 
-![image](HPL-CLIP_diagram.png)
-*Image adapted from [Quiros et al.](https://www.nature.com/articles/s41467-024-48666-7) and [Radford et al.](https://arxiv.org/pdf/2103.00020)*
-
 #### HPL-CONCH
 
 As a bonus, we generated and clustered image embeddings from CONtrastive learning from Captions for Histopathology (CONCH) by the Mahmood Lab (https://github.com/mahmoodlab/CONCH). This is a CLIP-style model that has been trained on over a million histopathology image-caption pairs. A caveat is that pathological information is included in the captions, so clusters generated from this method will not be completely unsupervised.
