@@ -22,7 +22,8 @@ Additionally, we replicated the original HPL pipeline using Barlow Twins to obta
  Installation to your local machine should take a few seconds. 
 
 2. Once saved to your local machine, in the original HPL pipeline:
-    Note: Naming conventions were not changed because the original HPL pipeline assumes a strict naming convention to successuflly execute the pipeline.
+
+[**Important**]: Naming conventions were not changed because the original HPL pipeline assumes a strict naming convention to successuflly execute the pipeline.
 
     - Replace `run_representationspathology.py` and `run_representationspathology_projection.py` and with the exact same named files in the same location from the `files_to_add` folder. 
 
